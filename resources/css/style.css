@@ -1,0 +1,26 @@
+html {
+
+}
+
+.logo {
+  background-color: black;
+}
+
+.menu li {
+  display: inline-block;
+  color: white;
+}
+
+.menu {
+  background-color: firebrick;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
