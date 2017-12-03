@@ -57,13 +57,59 @@ html {
 .menu li {
   display: inline-block;
   color: white;
+  padding: 0.75rem;
 }
 
 .menu {
   background-color: firebrick;
 }
 
-.info {
+.item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding: 3rem 0rem;
+  width: 30%;
+}
+
+.item-img {
+  height: 9rem;
+  border: 4px solid black;
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-img img {
+  max-width: 8rem;
+}
+
+.item span {
+  background-color: black;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.info {
+  width: 35%;
+}
+
+.info span {
+  display: block;
+}
+
+.info-title {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.description {
+  color: black;
+  padding-bottom: 4rem;
+}
+
+.copyright {
+  padding: 5rem 0rem;
+  background-color: black;
 }
